@@ -26,6 +26,7 @@ namespace MangaMVC
         {
             services.AddControllersWithViews();
             services.AddTransient<IMangaRepository, MangaRepository>();
+            services.AddTransient<IMangaReadListRepository, MangaReadListRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
