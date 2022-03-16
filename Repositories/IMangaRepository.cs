@@ -9,5 +9,6 @@ namespace MangaMVC.Repositories
     public interface IMangaRepository
     {
         List<Manga> GetAllManga();
+        Manga GetMangaById(int id);
     }
 }
